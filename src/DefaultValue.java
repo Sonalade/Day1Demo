@@ -1,12 +1,12 @@
 public class DefaultValue {
-    static byte byteValue;
-    static int intValue;
-    static float floatValue;
-    static long longValue;
-    static short ShortValue;
-    static double DoubleValue;
-    static char CharValue;
-    static boolean booleanValue;
+    static byte byteValue=12;
+    static int intValue=5;
+    static float floatValue=11.22f;
+    static long longValue=12345689;
+    static short ShortValue=1234;
+    static double DoubleValue=1.2345678;
+    static char CharValue='A';
+    static boolean booleanValue=true;
 
     public static void main(String[] args) {
 
