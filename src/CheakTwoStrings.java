@@ -3,7 +3,7 @@ public class CheakTwoStrings {
         System.out.println("Check two string are equal or not");
         String  a="Rakesh";
         String b="RAKESH";
-        if(a.equals(b)){
+        if(a==b){
             System.out.println("Both strings are same");
         }
         else {
