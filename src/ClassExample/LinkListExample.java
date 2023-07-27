@@ -18,7 +18,7 @@ public class LinkListExample {
         do{
             System.out.println("Enter data");
             data=sc.nextInt();
-            Node new_node=new Node(data);
+            Node new_node=new Node(data);          //Node class ka object
             if (head==null){
                 head=new_node;
             }
